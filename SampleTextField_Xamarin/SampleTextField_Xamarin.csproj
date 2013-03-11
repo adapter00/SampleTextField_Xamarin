@@ -94,15 +94,10 @@
     <Compile Include="MainViewController.designer.cs">
       <DependentUpon>MainViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="FlipsideViewController.cs" />
-    <Compile Include="FlipsideViewController.designer.cs">
-      <DependentUpon>FlipsideViewController.cs</DependentUpon>
-    </Compile>
     <Compile Include="HideTextField.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainViewController.xib" />
-    <InterfaceDefinition Include="FlipsideViewController.xib" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

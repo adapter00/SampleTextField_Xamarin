@@ -32,20 +32,6 @@ namespace SampleTextField_Xamarin
             
             // Release any cached data, images, etc that aren't in use.
         }
-        
-        partial void showInfo(NSObject sender)
-        {
-            var controller = new FlipsideViewController() {
-                ModalTransitionStyle = UIModalTransitionStyle.FlipHorizontal,
-            };
-            
-            controller.Done += delegate
-            {
-                DismissModalViewControllerAnimated(true);
-            };
-            
-            PresentModalViewController(controller, true);
-        }
     }
 }
 
